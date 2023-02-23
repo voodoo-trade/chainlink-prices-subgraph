@@ -4,13 +4,13 @@
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ voodoo-trade/chainlink-prices-subgraph-ftm",
-    "create-local": "graph create --node http://localhost:8020/ voodoo-trade/chainlink-prices-subgraph-ftm",
-    "remove-local": "graph remove --node http://localhost:8020/ voodoo-trade/chainlink-prices-subgraph-ftm",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 voodoo-trade/chainlink-prices-subgraph-ftm"
+    "deploy": "graph deploy --product hosted-service chicken-juju/chainlink-prices-subgraph-ftm",
+    "create-local": "graph create --node http://localhost:8020/ chicken-juju/chainlink-prices-subgraph-ftm",
+    "remove-local": "graph remove --node http://localhost:8020/ chicken-juju/chainlink-prices-subgraph-ftm",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 chicken-juju/chainlink-prices-subgraph-ftm"
   },
   "dependencies": {
-    "@graphprotocol/graph-cli": "0.19.0",
-    "@graphprotocol/graph-ts": "0.19.0"
+    "@graphprotocol/graph-cli": "^0.41.1",
+    "@graphprotocol/graph-ts": "^0.29.3"
   }
 }
