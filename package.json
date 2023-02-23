@@ -1,13 +1,13 @@
 {
-  "name": "chainlink-prices-subgraph",
+  "name": "chainlink-prices-subgraph-ftm",
   "license": "UNLICENSED",
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ OpenPredict/chainlink-prices-subgraph",
-    "create-local": "graph create --node http://localhost:8020/ OpenPredict/chainlink-prices-subgraph",
-    "remove-local": "graph remove --node http://localhost:8020/ OpenPredict/chainlink-prices-subgraph",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 OpenPredict/chainlink-prices-subgraph"
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ voodoo-trade/chainlink-prices-subgraph-ftm",
+    "create-local": "graph create --node http://localhost:8020/ voodoo-trade/chainlink-prices-subgraph-ftm",
+    "remove-local": "graph remove --node http://localhost:8020/ voodoo-trade/chainlink-prices-subgraph-ftm",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 voodoo-trade/chainlink-prices-subgraph-ftm"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "0.19.0",

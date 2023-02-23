@@ -1,15 +1,15 @@
 specVersion: 0.0.2
 description: ChainLink Price Feeds
-repository: https://github.com/openpredict/chainlink-price-subgraph
+repository: https://github.com/voodoo-trade/chainlink-price-subgraph
 schema:
   file: ./schema.graphql
 dataSources:
   - kind: ethereum/contract
     name: AccessControlledAggregator
-    network: mainnet
+    network: fantom
     source:
       abi: AccessControlledAggregator
-      startBlock: 10607721
+      startBlock: 14204762
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
