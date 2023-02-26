@@ -9,7 +9,7 @@ dataSources:
     network: fantom
     source:
       abi: AccessControlledAggregator
-      startBlock: 14204762
+      startBlock: 53000000
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6

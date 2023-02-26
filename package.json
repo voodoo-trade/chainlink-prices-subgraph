@@ -4,10 +4,10 @@
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --product hosted-service chicken-juju/chainlink-prices-subgraph-ftm",
-    "create-local": "graph create --node http://localhost:8020/ chicken-juju/chainlink-prices-subgraph-ftm",
-    "remove-local": "graph remove --node http://localhost:8020/ chicken-juju/chainlink-prices-subgraph-ftm",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 chicken-juju/chainlink-prices-subgraph-ftm"
+    "deploy": "graph deploy --product hosted-service chicken-juju/chainlink-prices-subgraph-ftm2 --deploy-key $(cat .access_token)",
+    "create-local": "graph create --node http://localhost:8020/ chicken-juju/chainlink-prices-subgraph-ftm2",
+    "remove-local": "graph remove --node http://localhost:8020/ chicken-juju/chainlink-prices-subgraph-ftm2",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 chicken-juju/chainlink-prices-subgraph-ftm-v2"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "^0.41.1",
